@@ -1,0 +1,43 @@
+.grid{
+	display:grid;
+	grid-template: 10% auto/20% 40% auto;
+	grid-gap:10px;
+	background-color: #f5deb3;
+	margin: 5px;
+	
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:5px;
+	border:1px solid black;
+	grid-column: 1/span 3;	
+	background-color:#f4a460; 
+}
+
+.sidebar{
+	grid-column:1/1;
+	grid-row:2/auto;
+	background-color: #f5f5dc;
+}
+
+.sidebar img{
+	width:5%;
+}
+
+#resumePic{
+	width:40%;
+	border-radius: 100%;
+}
+
+.mainContent{
+	display:flex;
+	flex-direction: column;
+	grid-column: 2 /span 2;
+	grid-row: 2/2;
+	justify-content: center;
+	align-content:center;
+}
+
