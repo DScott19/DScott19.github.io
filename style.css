@@ -92,9 +92,8 @@
 
 #split{
 	column-count:2;
-	width:30%;
-	padding: 15px;
-	list-style: square;
+	column-gap: 25px;
+	width: 40%;
 }
 
 
